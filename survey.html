@@ -1,0 +1,117 @@
+search
+
+Disclosure: Hackr.io is supported by its audience. When you purchase through links on our site, we may earn an affiliate commission.
+
+
+
+10 Free HTML Projects for Beginners (With Source Code)
+Posted in HTML 5
+
+
+Ramya Shankar
+Last Updated 02 Sep, 2022
+Share:
+share-facebook share-twitter share-linkedin share-reddit share-hackrnews share-whatsapp
+4 Comments
+Table of Contents
+
+What is HTML?
+HTML is the heart of the entire web. Whatever content we see online is based on HTML. If you simply right-click on any web page and click on View Source, you will be able to see loads of tags, the first one being <html> which means the document is an HTML file. 
+
+The basic structure of HTML:
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Title of the page</title>
+</head>
+<body>
+  <form action="some_action" method="POST">
+  </form>
+</body>
+</html>
+What to Expect from HTML Projects?
+Along with HTML, you should be able to grasp a bit (or a lot) of CSS and JavaScript. All three technologies go hand in hand, and for the projects below; although you wouldn’t need any prior experience with either CSS or JavaScript. These are simple yet powerful projects that will give you a lot of learning experience.
+
+Features of HTML
+Before we get onto projects, let us quickly recap the highlights:
+
+Platform-independent mark-up language.
+Easy to use and learn.
+No need for any setup or installation.
+Links, images, video, audio, animations can be added with little coding.
+Not case-sensitive.
+Easy to write custom code in other languages and integrate with HTML.
+Supported by all browsers.
+Free!
+Why HTML projects?
+Projects are the most practical way to learn any language, and HTML is no exception. To build any website, you need a basic understanding of HTML and if you want interactive custom websites, just knowing the cheat sheet is not enough – you should be able to implement your knowledge practically.
+
+10 Best HTML Projects for Beginners
+Let us now take a look at the best HTML projects to enhance your web development skills. 
+
+1. Survey Form
+The survey form is one of the most straightforward HTML projects you can start. In this project, we will create a simple survey form and then submit the information captured. You can open any text editor to write your code, and save your file with .html extension. For example, survey.html
+
+You will learn about basic input tags, form creation, radio buttons, checkboxes, etc.
+
+Here is the source code for the project with the necessary explanations of the tags. You can add elements one by one to see how they work. 
+
+Every file should start with the <html> tag and end with </html> end tag. 
+
+
+<!DOCTYPE HTML>
+<!-- This is how HTML comments look like -->
+<html>
+<!-- the title will appear on the page-->
+<head>
+<title>Employee Interests Survey</title>
+</head>
+<body>
+<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+<form action="http://google.co.in">
+<!-- If we remove this, every thing will move to the left of the page-->
+<div align="center">
+<!--Adds a heading to the form-->
+<h1>Employee Interests Survey form</h1>
+Enter your name:
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+</br></br>
+Enter your department:
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+Tell us a little about yourself:
+<!-- For writing lot of text like descriptions with text wrapping,
+if you dont want text wrapping, you can add wrap = "off" (horizontal scrollbar -->
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+Do you exercise at home?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+How do you like to read about your favorite topics?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web">Online resources
+<input type="checkbox" name="Phone">Phone apps
+<input type="checkbox" name="Magazines">Magazines
+</p>
+What genre of movies do you like?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comedy
+<option value=2 >romance
+<option value=3 >thriller
+<option value=4 >horror
+<option value=5 >biopic
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Submit form">
+</div>
+</form>
+</body>
+</html>
